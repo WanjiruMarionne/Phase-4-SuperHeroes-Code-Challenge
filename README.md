@@ -44,7 +44,7 @@ You can run your Flask API on [`localhost:5555`](http://localhost:5555) by
 running:
 
 ```console
-python server/app.py
+python3 server/app.py
 ```
 
 You can run your React app on [`localhost:4000`](http://localhost:4000) by
@@ -93,7 +93,7 @@ Run the migrations and seed the database:
 ```console
 flask db revision --autogenerate -m 'message'
 flask db upgrade head
-python server/seed.py
+python3 server/seed.py
 ```
 
 > If you aren't able to get the provided seed file working, you are welcome to
